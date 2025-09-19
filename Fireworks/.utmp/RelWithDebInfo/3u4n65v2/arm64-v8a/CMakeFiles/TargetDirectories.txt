@@ -1,0 +1,5 @@
+/Users/okamotoyayoi/Documents/Fireworks/.utmp/RelWithDebInfo/3u4n65v2/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/okamotoyayoi/Documents/Fireworks/.utmp/RelWithDebInfo/3u4n65v2/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/okamotoyayoi/Documents/Fireworks/.utmp/RelWithDebInfo/3u4n65v2/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/okamotoyayoi/Documents/Fireworks/.utmp/RelWithDebInfo/3u4n65v2/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/okamotoyayoi/Documents/Fireworks/.utmp/RelWithDebInfo/3u4n65v2/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

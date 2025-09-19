@@ -1,0 +1,114 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void WaterReflection_Awake_m86F43948E686275B6F0C6D761C619EDAB40B1678 (void);
+extern void WaterReflection_Update_mEAF4BCA28F1154AF68D716AC6E3A954482DED822 (void);
+extern void WaterReflection_RenderReflection_m01B0AD1623A4577A51AD8B1F3AE875FA24A80BF6 (void);
+extern void WaterReflection_Validate_m502E830C820B21FB6C83692F56E4C43DCA5DF19E (void);
+extern void WaterReflection__ctor_m9E43D7FFE829D81B2D6B290985815779F495C758 (void);
+extern void FurikoLine_Update_m66B2984B95B28052B7E636EDA200B124D57FDDF3 (void);
+extern void FurikoLine_DetachLine_m8B342D6BAE9B52D68A0A58AC9C55B7EB661D3B0B (void);
+extern void FurikoLine__ctor_m039AF808BFFCFD3991801A157526DC63FC1BD735 (void);
+extern void FurikoParticleController_OnTriggerEnter_m8D41DE767DA692140BABA3224DF6191E14541563 (void);
+extern void FurikoParticleController_OnTriggerExit_m96BC90DD60B855CF902C6A623720DC715297558E (void);
+extern void FurikoParticleController__ctor_mEE1FF6B0E696FBBC9BC3E2423C7E4ECDA9E9156E (void);
+extern void DetachOnCondition_Start_mB5E900D28EFC358D5A753F3C3C8244D051D634B2 (void);
+extern void DetachOnCondition_Update_m84933BF9371AD5147FC8D50D462C894608B4BC1F (void);
+extern void DetachOnCondition_DetachAndDrop_mE1E850BD422AEB208E0CFDBF11A77B2C35D880FB (void);
+extern void DetachOnCondition_RespawnAfterDelay_m2D443EFD9AF5120034571EB0F749CA1E14E33AF6 (void);
+extern void DetachOnCondition__ctor_m39691C8924B862D4069A0A176FD1B49214C5435D (void);
+extern void U3CRespawnAfterDelayU3Ed__11__ctor_mBE28391E31EDD6F119BB9AB1383DDEC2859B4867 (void);
+extern void U3CRespawnAfterDelayU3Ed__11_System_IDisposable_Dispose_mE943EE970C75E28EB22E461B6F1A2A048BA86ED6 (void);
+extern void U3CRespawnAfterDelayU3Ed__11_MoveNext_m9F5667FC2D4504287FE53523FB5E92A003993AB6 (void);
+extern void U3CRespawnAfterDelayU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3970DE2EA32072F6ED604E369934BCD78E5AA9CA (void);
+extern void U3CRespawnAfterDelayU3Ed__11_System_Collections_IEnumerator_Reset_m6C358FABCAE26CBA5A6D3E7DD474474DAC89EEAB (void);
+extern void U3CRespawnAfterDelayU3Ed__11_System_Collections_IEnumerator_get_Current_m00D9815B78014C19FC02F1640E5CB6F0FAC2EBB7 (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[26] = 
+{
+	WaterReflection_Awake_m86F43948E686275B6F0C6D761C619EDAB40B1678,
+	WaterReflection_Update_mEAF4BCA28F1154AF68D716AC6E3A954482DED822,
+	WaterReflection_RenderReflection_m01B0AD1623A4577A51AD8B1F3AE875FA24A80BF6,
+	WaterReflection_Validate_m502E830C820B21FB6C83692F56E4C43DCA5DF19E,
+	WaterReflection__ctor_m9E43D7FFE829D81B2D6B290985815779F495C758,
+	FurikoLine_Update_m66B2984B95B28052B7E636EDA200B124D57FDDF3,
+	FurikoLine_DetachLine_m8B342D6BAE9B52D68A0A58AC9C55B7EB661D3B0B,
+	FurikoLine__ctor_m039AF808BFFCFD3991801A157526DC63FC1BD735,
+	FurikoParticleController_OnTriggerEnter_m8D41DE767DA692140BABA3224DF6191E14541563,
+	FurikoParticleController_OnTriggerExit_m96BC90DD60B855CF902C6A623720DC715297558E,
+	FurikoParticleController__ctor_mEE1FF6B0E696FBBC9BC3E2423C7E4ECDA9E9156E,
+	DetachOnCondition_Start_mB5E900D28EFC358D5A753F3C3C8244D051D634B2,
+	DetachOnCondition_Update_m84933BF9371AD5147FC8D50D462C894608B4BC1F,
+	DetachOnCondition_DetachAndDrop_mE1E850BD422AEB208E0CFDBF11A77B2C35D880FB,
+	DetachOnCondition_RespawnAfterDelay_m2D443EFD9AF5120034571EB0F749CA1E14E33AF6,
+	DetachOnCondition__ctor_m39691C8924B862D4069A0A176FD1B49214C5435D,
+	U3CRespawnAfterDelayU3Ed__11__ctor_mBE28391E31EDD6F119BB9AB1383DDEC2859B4867,
+	U3CRespawnAfterDelayU3Ed__11_System_IDisposable_Dispose_mE943EE970C75E28EB22E461B6F1A2A048BA86ED6,
+	U3CRespawnAfterDelayU3Ed__11_MoveNext_m9F5667FC2D4504287FE53523FB5E92A003993AB6,
+	U3CRespawnAfterDelayU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3970DE2EA32072F6ED604E369934BCD78E5AA9CA,
+	U3CRespawnAfterDelayU3Ed__11_System_Collections_IEnumerator_Reset_m6C358FABCAE26CBA5A6D3E7DD474474DAC89EEAB,
+	U3CRespawnAfterDelayU3Ed__11_System_Collections_IEnumerator_get_Current_m00D9815B78014C19FC02F1640E5CB6F0FAC2EBB7,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[26] = 
+{
+	19441,
+	19441,
+	19441,
+	19441,
+	19441,
+	19441,
+	19441,
+	19441,
+	14918,
+	14918,
+	19441,
+	19441,
+	19441,
+	19441,
+	19219,
+	19441,
+	14833,
+	19441,
+	18983,
+	19219,
+	19441,
+	19219,
+	19441,
+	19441,
+	31549,
+	19441,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	26,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
