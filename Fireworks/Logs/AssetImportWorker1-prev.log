@@ -7,9 +7,9 @@ Darwin version:          23.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
-Date:                    2025-09-18T22:51:54Z
+Date:                    2025-09-21T16:47:05Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi" at "2025-09-18T22:51:54.510661Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi" at "2025-09-21T16:47:05.677963Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MacOS/Unity
@@ -19,11 +19,11 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/okamotoyayoi/Documents/Fireworks
+/Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52874
+57130
 -licensingIpc
 LicenseClient-okamotoyayoi
 -job-worker-count
@@ -33,8 +33,8 @@ LicenseClient-okamotoyayoi
 -gc-helper-count
 1
 -name AssetImport
-Successfully changed project path to: /Users/okamotoyayoi/Documents/Fireworks
-/Users/okamotoyayoi/Documents/Fireworks
+Successfully changed project path to: /Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks
+/Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/okamotoyayoi/Documents/Fireworks
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8701660160]  Target information:
 
-Player connection [8701660160]  * "[IP] 192.168.11.8 [Port] 0 [Flags] 2 [Guid] 1492340571 [EditorId] 1492340571 [Version] 1048832 [Id] OSXEditor(0,okamotoyayoinoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8701660160]  * "[IP] 192.168.11.8 [Port] 0 [Flags] 2 [Guid] 3087568355 [EditorId] 3087568355 [Version] 1048832 [Id] OSXEditor(0,okamotoyayoinoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8701660160] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8701660160] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -88,26 +88,26 @@ Library Redirect Path: Library/
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
 [Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14375, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 83580, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-okamotoyayoi"
 [Licensing::IpcConnector] LicenseClient-okamotoyayoi channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.2" at "2025-09-18T22:51:55.740837Z"
-[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 8906, path: "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.2" at "2025-09-21T16:47:06.152963Z"
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 59194, path: "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              c298facab9b14fdf9368e4163da8c49c
-  Correlation Id:          f91dc766dc6c14207497784962e066a8
-  External correlation Id: 7810596760551817521
+  Session Id:              43985eac1b1241a89b81132662338b76
+  Correlation Id:          b915bacde634232198126866f44c7dbd
+  External correlation Id: 3759523842465776151
   Machine Id:              vOyBiLo16VMUqum6ggQ2jDzacsY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-okamotoyayoi-6000.2.2" (connect: 0.00s, validation: 0.01s, handshake: 0.09s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.2-notifications" at "2025-09-18T22:51:55.840814Z"
-[Licensing::Module] Licensing Background thread has ended after 1.33s
-[Licensing::Module] Licensing is initialized (took 0.70s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-okamotoyayoi-6000.2.2" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.2-notifications" at "2025-09-21T16:47:06.164546Z"
+[Licensing::Module] Licensing Background thread has ended after 0.49s
+[Licensing::Module] Licensing is initialized (took 0.05s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-6BHM-42VW-SVTZ-Q675-XXXX
@@ -119,11 +119,11 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 484.75 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 16.13 ms.
+Refreshing native plugins compatible for Editor in 528.81 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 16.05 ms.
 Initialize engine version: 6000.2.2f1 (ea398eefe1c2)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/okamotoyayoi/Documents/Fireworks/Assets
+[Subsystems] Discovering subsystems at path /Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -142,50 +142,50 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.006839 seconds.
-- Loaded All Assemblies, in  1.389 seconds
+Registered in 0.005982 seconds.
+- Loaded All Assemblies, in  1.598 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 113 ms
+Android Extension - Scanning For ADB Devices 92 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.267 seconds
-Domain Reload Profiling: 2658ms
-	BeginReloadAssembly (988ms)
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 2089ms
+	BeginReloadAssembly (1227ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (230ms)
-		LoadAssemblies (993ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (1231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (216ms)
-				TypeCache.ScanAssembly (196ms)
-			BuildScriptInfoCaches (1ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (235ms)
+			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1268ms)
+	FinalizeReload (491ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (689ms)
+		SetupLoadedEditorAssemblies (426ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (330ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
+			InitializePlatformSupportModulesInManaged (204ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -204,13 +204,13 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.253 seconds
+- Loaded All Assemblies, in  2.879 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 19.96 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 20.58 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -221,14 +221,14 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.31 ms, found 10 plugins.
-19/09 07:52:06.104 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+Refreshing native plugins compatible for Editor in 4.69 ms, found 10 plugins.
+22/09 01:47:18.627 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    30    0    30    0     0    145      0 --:--:-- --:--:-- --:--:--   145
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    30    0    30    0     0    110      0 --:--:-- --:--:-- --:--:--   111
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -239,39 +239,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.619 seconds
-Domain Reload Profiling: 4871ms
-	BeginReloadAssembly (214ms)
+- Finished resetting the current domain, in  2.055 seconds
+Domain Reload Profiling: 4934ms
+	BeginReloadAssembly (228ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (2958ms)
-		LoadAssemblies (2429ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (2521ms)
+		LoadAssemblies (1982ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (609ms)
-			TypeCache.Refresh (514ms)
-				TypeCache.ScanAssembly (476ms)
-			BuildScriptInfoCaches (74ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1619ms)
+		AnalyzeDomain (645ms)
+			TypeCache.Refresh (390ms)
+				TypeCache.ScanAssembly (348ms)
+			BuildScriptInfoCaches (226ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2056ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1268ms)
+		SetupLoadedEditorAssemblies (1626ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (150ms)
-			ProcessInitializeOnLoadAttributes (1055ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (1406ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -282,104 +282,19 @@ Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 5.45 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.62 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9125 unused Assets / (4.7 MB). Loaded Objects now: 9913.
-Memory consumption went from 237.9 MB to 233.3 MB.
-Total: 66.074792 ms (FindLiveObjects: 14.813208 ms CreateObjectMapping: 2.291625 ms MarkObjects: 39.921125 ms  DeleteObjects: 9.041625 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.47 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.76 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9755 unused Assets / (6.8 MB). Loaded Objects now: 10546.
+Memory consumption went from 167.0 MB to 160.2 MB.
+Total: 38.077333 ms (FindLiveObjects: 2.589542 ms CreateObjectMapping: 0.450833 ms MarkObjects: 29.819250 ms  DeleteObjects: 5.216500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 165953.756851 seconds.
-  path: Assets/My_sound/cricket-grassland-1.mp3
-  artifactKey: Guid(1a84448e9a32644329a308809be44092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My_sound/cricket-grassland-1.mp3 using Guid(1a84448e9a32644329a308809be44092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01bd8f66039972146f2ccdcb94cf50fd') in 0.183302292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 290547.266072 seconds.
+  path: Assets/ShimaeWorkShop/Butterfly/Models/Butterfly.fbx
+  artifactKey: Guid(25ea09392fc5b1e459eb200fe27da272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShimaeWorkShop/Butterfly/Models/Butterfly.fbx using Guid(25ea09392fc5b1e459eb200fe27da272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e77f15918ed8614cbebb549a30d7be42') in 2.328389417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory
-sh: /Applications/Meta: No such file or directory

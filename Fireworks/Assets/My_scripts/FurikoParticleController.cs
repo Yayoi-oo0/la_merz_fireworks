@@ -1,56 +1,82 @@
-// using UnityEngine;
-
-// public class FurikoParticleController : MonoBehaviour
-// {
-//     public ParticleSystem particleSystem; 
-    
-//     private void OnTriggerEnter(Collider other)
-//     {c
-//         if (other.CompareTag("Candle"))
-//             particleSystem.Play();
-//     }
-// }
 using UnityEngine;
-using TMPro; // TMPを扱うために必要
+using TMPro;
+using System.Collections;
 
 public class FurikoParticleController : MonoBehaviour
 {
-    // パーティクルシステムをインスペクターから設定
-    public ParticleSystem particleSystem; 
-    // 表示するText (TMP)コンポーネントをインスペクターから設定
-    public TextMeshProUGUI debugText;
+    public ParticleSystem particleSystem;
+	public ParticleSystem particleSystem2;
+	public ParticleSystem particleSystem3;
+	public ParticleSystem particleSystem4;
+	public ParticleSystem particleSystem5;
+
+	//debug
+    // public TextMeshProUGUI debugText;
+
 	public AudioSource audioSource;
 
-    // 接触時に呼び出されるメソッド
+
     private void OnTriggerEnter(Collider other)
     {
-        // 接触したオブジェクトのタグをチェック
         if (other.CompareTag("Candle"))
         {
-            // パーティクルを再生
             particleSystem.Play();
 
+			if (particleSystem2 != null)
+			{
+				particleSystem2.Play();
+				StartCoroutine(PlayParticle3AfterDelay());
+			}
 			if (audioSource != null && audioSource.clip != null)
 			{
 				audioSource.Play();
 			}
-            // デバッグ用の文字をUIに表示
-            if (debugText != null)
-            {
-                debugText.text = "Hit!";
-            }
+			//debug
+            // if (debugText != null)
+            // {
+            //     debugText.text = "Hit!";
+            // }
         }
     }
 
-    // (補足) 接触が離れたときに文字を消したい場合
-    private void OnTriggerExit(Collider other)
+	private IEnumerator PlayParticle3AfterDelay()
+	{
+		yield return new WaitForSeconds(30f);
+		if (particleSystem3 != null)
+		{
+			particleSystem3.Play();
+			StartCoroutine(PlayParticle4AfterDelay());
+		}
+	}
+
+    private IEnumerator PlayParticle4AfterDelay()
     {
-        if (other.CompareTag("Candle"))
+        yield return new WaitForSeconds(30f);
+        if (particleSystem4 != null)
         {
-            if (debugText != null)
-            {
-                debugText.text = "testing..."; // 空欄に戻す
-            }
+            particleSystem4.Play();
+			StartCoroutine(PlayParticle5AfterDelay());
         }
     }
+
+    private IEnumerator PlayParticle5AfterDelay()
+    {
+        yield return new WaitForSeconds(30f);
+        if (particleSystem5 != null)
+        {
+            particleSystem5.Play();
+        }
+    }
+
+	//debug
+    // private void OnTriggerExit(Collider other)
+    // {
+    //     if (other.CompareTag("Candle"))
+    //     {
+    //         if (debugText != null)
+    //         {
+    //             debugText.text = "testing...";
+    //         }
+    //     }
+    // }
 }

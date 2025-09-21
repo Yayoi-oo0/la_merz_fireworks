@@ -1,0 +1,5 @@
+/Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/.utmp/RelWithDebInfo/6l1t48wc/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/.utmp/RelWithDebInfo/6l1t48wc/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/.utmp/RelWithDebInfo/6l1t48wc/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/.utmp/RelWithDebInfo/6l1t48wc/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/.utmp/RelWithDebInfo/6l1t48wc/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
