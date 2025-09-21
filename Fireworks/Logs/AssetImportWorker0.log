@@ -1,4 +1,4 @@
-Unity Editor version:    6000.2.2f1 (ea398eefe1c2)
+Unity Editor version:    6000.2.5f1 (43d04cd1df69)
 Branch:                  6000.2/staging
 Build type:              Release
 Batch mode:              YES
@@ -7,25 +7,23 @@ Darwin version:          23.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
-Date:                    2025-09-21T16:47:05Z
+Date:                    2025-09-21T21:05:59Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi" at "2025-09-21T16:47:05.677963Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi" at "2025-09-21T21:05:59.954617Z"
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker0
 -projectPath
 /Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker0.log
 -srvPort
-57130
--licensingIpc
-LicenseClient-okamotoyayoi
+62512
 -job-worker-count
 3
 -background-job-worker-count
@@ -72,7 +70,7 @@ Successfully changed project path to: /Users/okamotoyayoi/Documents/la_merz_fire
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8701660160]  Target information:
 
-Player connection [8701660160]  * "[IP] 192.168.11.8 [Port] 0 [Flags] 2 [Guid] 3087568355 [EditorId] 3087568355 [Version] 1048832 [Id] OSXEditor(0,okamotoyayoinoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8701660160]  * "[IP] 192.168.11.8 [Port] 0 [Flags] 2 [Guid] 3469946482 [EditorId] 3469946482 [Version] 1048832 [Id] OSXEditor(0,okamotoyayoinoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8701660160] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8701660160] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,42 +85,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 83580, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.17.2'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-okamotoyayoi"
-[Licensing::IpcConnector] LicenseClient-okamotoyayoi channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.2" at "2025-09-21T16:47:06.152963Z"
-[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 59194, path: "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.2+ff71f16
-  Session Id:              43985eac1b1241a89b81132662338b76
-  Correlation Id:          b915bacde634232198126866f44c7dbd
-  External correlation Id: 3759523842465776151
-  Machine Id:              vOyBiLo16VMUqum6ggQ2jDzacsY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-okamotoyayoi-6000.2.2" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.2-notifications" at "2025-09-21T16:47:06.164546Z"
-[Licensing::Module] Licensing Background thread has ended after 0.49s
-[Licensing::Module] Licensing is initialized (took 0.05s).
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-6BHM-42VW-SVTZ-Q675-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 15668687907970-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 528.81 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 16.05 ms.
-Initialize engine version: 6000.2.2f1 (ea398eefe1c2)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/UnitySubsystems
+Refreshing native plugins compatible for Editor in 68.05 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 18.90 ms.
+Initialize engine version: 6000.2.5f1 (43d04cd1df69)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M1 (high power)
@@ -136,54 +102,82 @@ MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 69046, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-okamotoyayoi"
+[Licensing::IpcConnector] LicenseClient-okamotoyayoi channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.5" at "2025-09-21T21:06:00.755913Z"
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 71187, path: "/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              b361c9afde4944788aaa42d46f47ddae
+  Correlation Id:          2811210638573a6cc2171983a43eee5f
+  External correlation Id: 1077069091885119565
+  Machine Id:              vOyBiLo16VMUqum6ggQ2jDzacsY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-okamotoyayoi-6000.2.5" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.5-notifications" at "2025-09-21T21:06:00.775552Z"
+[Licensing::Module] Licensing Background thread has ended after 0.82s
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56239
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.005982 seconds.
-- Loaded All Assemblies, in  1.598 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-6BHM-42VW-SVTZ-Q675-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 15668687907970-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.015222 seconds.
+- Loaded All Assemblies, in  0.540 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 92 ms
+Android Extension - Scanning For ADB Devices 299 ms
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.491 seconds
-Domain Reload Profiling: 2089ms
-	BeginReloadAssembly (1227ms)
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1265ms
+	BeginReloadAssembly (228ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (260ms)
-		LoadAssemblies (1231ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (251ms)
-				TypeCache.ScanAssembly (235ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (156ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (491ms)
+	FinalizeReload (725ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (426ms)
+		SetupLoadedEditorAssemblies (662ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (204ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			InitializePlatformSupportModulesInManaged (403ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -204,16 +198,15 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.879 seconds
+- Loaded All Assemblies, in  4.549 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 20.58 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 28.85 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -221,14 +214,15 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.69 ms, found 10 plugins.
-22/09 01:47:18.627 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+Refreshing native plugins compatible for Editor in 128.38 ms, found 10 plugins.
+22/09 06:06:10.195 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+22/09 06:06:10.195 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    30    0    30    0     0    110      0 --:--:-- --:--:-- --:--:--   111
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    30    0    30    0     0    118      0 --:--:-- --:--:-- --:--:--   119
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -239,62 +233,54 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.055 seconds
-Domain Reload Profiling: 4934ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  3.533 seconds
+Domain Reload Profiling: 8084ms
+	BeginReloadAssembly (769ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (2521ms)
-		LoadAssemblies (1982ms)
+		CreateAndSetChildDomain (211ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (3595ms)
+		LoadAssemblies (3383ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (645ms)
-			TypeCache.Refresh (390ms)
-				TypeCache.ScanAssembly (348ms)
-			BuildScriptInfoCaches (226ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (2056ms)
+		AnalyzeDomain (662ms)
+			TypeCache.Refresh (522ms)
+				TypeCache.ScanAssembly (472ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3535ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1626ms)
+		SetupLoadedEditorAssemblies (3107ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (156ms)
-			ProcessInitializeOnLoadAttributes (1406ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (2763ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 [OVRPlugin][INFO] UnityPluginLoad called
-Launching external process: /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 6.47 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.76 ms.
+Launching external process: /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 32.66 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 1.28 ms.
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9755 unused Assets / (6.8 MB). Loaded Objects now: 10546.
-Memory consumption went from 167.0 MB to 160.2 MB.
-Total: 38.077333 ms (FindLiveObjects: 2.589542 ms CreateObjectMapping: 0.450833 ms MarkObjects: 29.819250 ms  DeleteObjects: 5.216500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 290547.266072 seconds.
-  path: Assets/ShimaeWorkShop/Butterfly/Models/Butterfly.fbx
-  artifactKey: Guid(25ea09392fc5b1e459eb200fe27da272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShimaeWorkShop/Butterfly/Models/Butterfly.fbx using Guid(25ea09392fc5b1e459eb200fe27da272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e77f15918ed8614cbebb549a30d7be42') in 2.328389417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+Unloading 9755 unused Assets / (4.5 MB). Loaded Objects now: 10543.
+Memory consumption went from 176.7 MB to 172.2 MB.
+Total: 68.855500 ms (FindLiveObjects: 6.679750 ms CreateObjectMapping: 0.997041 ms MarkObjects: 53.998250 ms  DeleteObjects: 7.179125 ms)
 

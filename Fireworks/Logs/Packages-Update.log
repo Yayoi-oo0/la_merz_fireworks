@@ -64,3 +64,12 @@ Update Mode: mergeDefaultDependencies
 
 The following packages were added:
   com.unity.cinemachine@2.10.4
+
+=== Mon Sep 22 05:52:35 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ai.navigation from version 2.0.8 to 2.0.9
+  com.unity.ide.rider from version 3.0.36 to 3.0.37
