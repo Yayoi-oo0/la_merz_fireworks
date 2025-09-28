@@ -11,7 +11,12 @@ public class FurikoParticleController : MonoBehaviour
 	public ParticleSystem particleSystem5;
 
 	//debug
-    // public TextMeshProUGUI debugText;
+    //public TextMeshProUGUI debugText;
+
+	//timer
+	public TextMeshProUGUI timerText;
+	float count = 0.0f;
+	private bool isTimerRunning = false;
 
 	public AudioSource audioSource;
 
@@ -36,8 +41,31 @@ public class FurikoParticleController : MonoBehaviour
             // {
             //     debugText.text = "Hit!";
             // }
+			if (!isTimerRunning)
+			{
+				isTimerRunning = true;
+				StartCoroutine(UpdateTimer());
+			}
         }
     }
+
+	private IEnumerator UpdateTimer()
+	{
+		while (isTimerRunning)
+		{
+			count += Time.deltaTime;
+			if (timerText != null)
+			{
+				timerText.text = "elapsed time: " + count.ToString("F2") + " s";
+			}
+			yield return null;
+		}
+	}
+
+	public void StopTimer()
+	{
+		isTimerRunning = false;
+	}
 
 	private IEnumerator PlayParticle3AfterDelay()
 	{

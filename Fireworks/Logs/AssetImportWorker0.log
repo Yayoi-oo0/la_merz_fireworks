@@ -7,9 +7,9 @@ Darwin version:          23.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
-Date:                    2025-09-21T21:05:59Z
+Date:                    2025-09-27T18:27:58Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi" at "2025-09-21T21:05:59.954617Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi" at "2025-09-27T18:27:58.480953Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62512
+62945
 -job-worker-count
 3
 -background-job-worker-count
@@ -70,7 +70,7 @@ Successfully changed project path to: /Users/okamotoyayoi/Documents/la_merz_fire
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8701660160]  Target information:
 
-Player connection [8701660160]  * "[IP] 192.168.11.8 [Port] 0 [Flags] 2 [Guid] 3469946482 [EditorId] 3469946482 [Version] 1048832 [Id] OSXEditor(0,okamotoyayoinoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8701660160]  * "[IP] 192.168.0.250 [Port] 0 [Flags] 2 [Guid] 74249914 [EditorId] 74249914 [Version] 1048832 [Id] OSXEditor(0,okamotoyoinoAir) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8701660160] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8701660160] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -85,8 +85,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 68.05 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 18.90 ms.
+Refreshing native plugins compatible for Editor in 69.50 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 21.14 ms.
 Initialize engine version: 6000.2.5f1 (43d04cd1df69)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/okamotoyayoi/Documents/la_merz_fireworks/Fireworks/Assets
@@ -102,32 +102,32 @@ MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 69046, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 37797, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-okamotoyayoi"
 [Licensing::IpcConnector] LicenseClient-okamotoyayoi channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.5" at "2025-09-21T21:06:00.755913Z"
-[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 71187, path: "/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.5" at "2025-09-27T18:27:59.956633Z"
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 40111, path: "/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              b361c9afde4944788aaa42d46f47ddae
-  Correlation Id:          2811210638573a6cc2171983a43eee5f
-  External correlation Id: 1077069091885119565
+  Session Id:              ec0c94c5e574475d972d79c2d150bd44
+  Correlation Id:          2e491e5ded23874f3225a8c0f8697ea7
+  External correlation Id: 3904675560755664002
   Machine Id:              vOyBiLo16VMUqum6ggQ2jDzacsY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-okamotoyayoi-6000.2.5" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.5-notifications" at "2025-09-21T21:06:00.775552Z"
-[Licensing::Module] Licensing Background thread has ended after 0.82s
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-okamotoyayoi-6000.2.5" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-okamotoyayoi-6000.2.5-notifications" at "2025-09-27T18:27:59.976005Z"
+[Licensing::Module] Licensing Background thread has ended after 1.50s
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56239
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56450
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
@@ -143,41 +143,41 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.2.5f1/Unit
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.015222 seconds.
-- Loaded All Assemblies, in  0.540 seconds
+Registered in 0.040096 seconds.
+- Loaded All Assemblies, in  1.003 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 299 ms
+Android Extension - Scanning For ADB Devices 305 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.724 seconds
-Domain Reload Profiling: 1265ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  1.438 seconds
+Domain Reload Profiling: 2442ms
+	BeginReloadAssembly (212ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (230ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (209ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (538ms)
+			TypeCache.Refresh (535ms)
+				TypeCache.ScanAssembly (493ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (725ms)
+	FinalizeReload (1439ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (662ms)
+		SetupLoadedEditorAssemblies (1288ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (403ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			InitializePlatformSupportModulesInManaged (548ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (251ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -198,13 +198,13 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  4.549 seconds
+- Loaded All Assemblies, in  4.584 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 28.85 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 105.86 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -214,15 +214,15 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 128.38 ms, found 10 plugins.
-22/09 06:06:10.195 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
-22/09 06:06:10.195 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+Refreshing native plugins compatible for Editor in 50.36 ms, found 10 plugins.
+28/09 03:28:13.369 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+28/09 03:28:13.369 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    30    0    30    0     0    118      0 --:--:-- --:--:-- --:--:--   119
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    30    0    30    0     0     43      0 --:--:-- --:--:-- --:--:--    43
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -233,39 +233,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.533 seconds
-Domain Reload Profiling: 8084ms
-	BeginReloadAssembly (769ms)
+- Finished resetting the current domain, in  5.544 seconds
+Domain Reload Profiling: 10128ms
+	BeginReloadAssembly (660ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (26ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (211ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (3595ms)
-		LoadAssemblies (3383ms)
+		CreateAndSetChildDomain (162ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (161ms)
+	LoadAllAssembliesAndSetupDomain (3597ms)
+		LoadAssemblies (2724ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (662ms)
-			TypeCache.Refresh (522ms)
-				TypeCache.ScanAssembly (472ms)
-			BuildScriptInfoCaches (112ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (3535ms)
+		AnalyzeDomain (1183ms)
+			TypeCache.Refresh (892ms)
+				TypeCache.ScanAssembly (788ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (58ms)
+	FinalizeReload (5545ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3107ms)
+		SetupLoadedEditorAssemblies (4873ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (226ms)
-			ProcessInitializeOnLoadAttributes (2763ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (653ms)
+			ProcessInitializeOnLoadAttributes (4027ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -276,11 +276,161 @@ Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
-Refreshing native plugins compatible for Editor in 32.66 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 1.28 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 11.93 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 1.44 ms.
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9755 unused Assets / (4.5 MB). Loaded Objects now: 10543.
-Memory consumption went from 176.7 MB to 172.2 MB.
-Total: 68.855500 ms (FindLiveObjects: 6.679750 ms CreateObjectMapping: 0.997041 ms MarkObjects: 53.998250 ms  DeleteObjects: 7.179125 ms)
+Unloading 9755 unused Assets / (3.0 MB). Loaded Objects now: 10543.
+Memory consumption went from 176.9 MB to 174.0 MB.
+Total: 56.284500 ms (FindLiveObjects: 6.067750 ms CreateObjectMapping: 1.118792 ms MarkObjects: 39.656750 ms  DeleteObjects: 9.439708 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 488040.868545 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89451d3fb7584e7a12a893970572dce9') in 0.030201167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.28 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 13.49 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (2.7 MB). Loaded Objects now: 10545.
+Memory consumption went from 156.2 MB to 153.5 MB.
+Total: 57.869833 ms (FindLiveObjects: 4.197125 ms CreateObjectMapping: 0.581500 ms MarkObjects: 48.002291 ms  DeleteObjects: 4.803333 ms)
+
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a segv while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x31774138c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_dump_native_crash_info
+	0x31770360c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_handle_native_crash
+	0x31768be10 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_sigsegv_signal_handler_debug
+	0x19ec83584 - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x1031c075c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZNK4core13base_hash_setINS_4pairIKNS_12basic_stringIcNS_20StringStorageDefaultIcEEEEN8keywords12LocalKeywordELb1EEENS_9hash_pairINS_4hashINS_16basic_string_refIcEEEES5_EENS_10equal_pairINSt3__18equal_toISD_EES5_EEE6lookupIS5_SK_EEPNSL_4nodeERKT_RKT0_
+	0x1031bcab8 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZNK8keywords10LocalSpace4FindERKN4core12basic_stringIcNS1_20StringStorageDefaultIcEEEE
+	0x1031bc99c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN8keywords12KeywordRemap4InitERKNS_10LocalSpaceES3_
+	0x1031d89a0 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader15ResolveFallbackERKNS_16SerializedShaderEP6ShaderRN4core6vectorI4PPtrIS4_ENS6_9allocatorIS9_Lm0EEEEEb
+	0x10315966c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader36CreateFromSerializedShaderMainThreadEPS0_RKNS_16SerializedShaderERN4core6vectorI4PPtrI6ShaderENS5_9allocatorIS9_Lm0EEEEEbPS8_
+	0x10315d6d4 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _Z36ShaderFromSerializedShaderMainThreadPN9ShaderLab9IntShaderEPKNS_16SerializedShaderERN4core6vectorI4PPtrI6ShaderENS5_9allocatorIS9_Lm0EEEEEbPS8_
+	0x104f65c00 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN6Shader20CreateFromParsedFormEv
+	0x104f65e5c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN6Shader13AwakeFromLoadE17AwakeFromLoadMode
+	0x103526874 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue28InvokePersistentManagerAwakeEPNS_4ItemEj17AwakeFromLoadModeb
+	0x1035262ac - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue41PersistentManagerSingleQueueAwakeFromLoadEi17AwakeFromLoadMode
+	0x103525eec - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue39PersistentManagerAwakeFromLoad_NoChecksE17AwakeFromLoadMode
+	0x1034f8fcc - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager27IntegrateAllThreadedObjectsEv
+	0x1034fa124 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager38LoadAndIntegrateAllPreallocatedObjectsENS_9LockFlagsE
+	0x1034fc29c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager11LoadObjectsEPK8EntityIdib
+	0x104b58390 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _Z15ReloadInstancesRKN4core6vectorI8EntityIdNS_9allocatorIS1_Lm0EEEEERKNS_8hash_mapIS1_17ScriptingGCHandleNS_4hashIS1_EENSt3__18equal_toIS1_EEEE
+	0x104b5a43c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _Z19ReloadAssetIfLoadedRK9UnityGUID
+	0x104b1ba8c - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : ___ZZN23AssetImportWorkerClient13HandleMessageERK14PrepareMessageENK3$_4clEv_block_invoke
+	0x19eaa23e8 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x19eab19b0 - /usr/lib/system/libdispatch.dylib : _dispatch_async_and_wait_invoke
+	0x19eaa23e8 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x19eab0bb8 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_drain
+	0x19eab07cc - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_callback_4CF
+	0x19ed73ad4 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+	0x19ed31258 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopRun
+	0x19ed30434 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : CFRunLoopRunSpecific
+	0x1a94d419c - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : RunCurrentEventLoopInMode
+	0x1a94d3fd8 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : ReceiveNextEventCommon
+	0x1a94d3d30 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : _BlockUntilNextEventMatchingListInModeWithFilter
+	0x1a258fd68 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x1a2d85808 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x1a258309c - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x1a255a2e0 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x1056e7af4 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : _Z10EditorMainiPPKc
+	0x1056e7e54 - /Applications/Unity/Hub/Editor/6000.2.5f1/Unity.app/Contents/MacOS/Unity : main
+	0x19e8ca0e0 - /usr/lib/dyld : start
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Pkilling 0x13286666240x from 0x8701660160x
+Pkilling 0x6130757632x from 0x8701660160x
+Pkilling 0x6407876608x from 0x8701660160x
+Pkilling 0x13819506688x from 0x8701660160x
+Pkilling 0x13918826496x from 0x8701660160x
+Pkilling 0x13423898624x from 0x8701660160x
+Pkilling 0x6408450048x from 0x8701660160x
+Pkilling 0x13528412160x from 0x8701660160x
+Pkilling 0x6409023488x from 0x8701660160x
+Pkilling 0x13817360384x from 0x8701660160x
+Entering thread summarizer pause from 0x8701660160x
+Finished thread summarizer pause from 0x8701660160x.
+Failed to create breadcrumb file (null)/crash_hash_0x0
+debugger-agent: Unable to listen on 42
+
+Waiting for dumping threads to resume
+
+=================================================================
+	External Debugger Dump:
+=================================================================
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x1031c0778):0x1031c0768  8a 02 40 f9 6c f1 7d d3 8c 01 0b cb 40 01 0c 8b  ..@.l.}.....@...
+0x1031c0778  0c 00 40 b9 9f 01 09 6b e1 03 00 54 6e 7e 40 39  ..@....k...Tn~@9
+0x1031c0788  f1 03 80 52 2f 02 0e cb 6d 0a 40 f9 df 01 01 71  ...R/...m.@....q
+0x1031c0798  f0 31 8d 9a 01 9c 40 39 31 02 01 cb 02 0c 40 f9  .1....@91.....@.
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Obtained 35 stack frames.
+#0  0x000001031c0778 in core::base_hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>::node* core::base_hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>::lookup<core::basic_string<char, core::StringStorageDefault<char>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>(core::basic_string<char, core::StringStorageDefault<char>> const&, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>> const&) const
+#1  0x000001031bcab8 in keywords::LocalSpace::Find(core::basic_string<char, core::StringStorageDefault<char>> const&) const
+#2  0x000001031bc99c in keywords::KeywordRemap::Init(keywords::LocalSpace const&, keywords::LocalSpace const&)
+#3  0x000001031d89a0 in ShaderLab::IntShader::ResolveFallback(ShaderLab::SerializedShader const&, Shader*, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool)
+#4  0x0000010315966c in ShaderLab::IntShader::CreateFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const&, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool, Shader*)
+#5  0x0000010315d6d4 in ShaderFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const*, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool, Shader*)
+#6  0x00000104f65c00 in Shader::CreateFromParsedForm()
+#7  0x00000104f65e5c in Shader::AwakeFromLoad(AwakeFromLoadMode)
+#8  0x00000103526874 in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
+#9  0x000001035262ac in AwakeFromLoadQueue::PersistentManagerSingleQueueAwakeFromLoad(int, AwakeFromLoadMode)
+#10 0x00000103525eec in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad_NoChecks(AwakeFromLoadMode)
+#11 0x000001034f8fcc in PersistentManager::IntegrateAllThreadedObjects()
+#12 0x000001034fa124 in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
+#13 0x000001034fc29c in PersistentManager::LoadObjects(EntityId const*, int, bool)
+#14 0x00000104b58390 in ReloadInstances(core::vector<EntityId, core::allocator<EntityId, 0ul>> const&, core::hash_map<EntityId, ScriptingGCHandle, core::hash<EntityId>, std::__1::equal_to<EntityId>> const&)
+#15 0x00000104b5a43c in ReloadAssetIfLoaded(UnityGUID const&)
+#16 0x00000104b1ba8c in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_4::operator()() const
+#17 0x0000019eaa23e8 in _dispatch_client_callout
+#18 0xa00300019eab19b0 in _dispatch_async_and_wait_invoke
+#19 0x80c00019eaa23e8 in _dispatch_client_callout
+#20 0x571b80019eab0bb8 in _dispatch_main_queue_drain
+#21 0xa15600019eab07cc in _dispatch_main_queue_callback_4CF
+#22 0x412d80019ed73ad4 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#23 0xc92380019ed31258 in __CFRunLoopRun
+#24 0x770080019ed30434 in CFRunLoopRunSpecific
+#25 0x6a558001a94d419c in RunCurrentEventLoopInMode
+#26 0xc290001a94d3fd8 in ReceiveNextEventCommon
+#27 0xfa0f8001a94d3d30 in _BlockUntilNextEventMatchingListInModeWithFilter
+#28 0xfb5a0001a258fd68 in _DPSNextEvent
+#29 0xb07f8001a2d85808 in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#30 0x8c440001a258309c in -[NSApplication run]
+#31 0x2f260001a255a2e0 in NSApplicationMain
+#32 0xc7740001056e7af4 in EditorMain(int, char const**)
+#33 0x000001056e7e54 in main
+#34 0x0000019e8ca0e0 in start

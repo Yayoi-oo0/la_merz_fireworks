@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class DetachOnCondition : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class DetachOnCondition : MonoBehaviour
 	public ParticleSystem particleSystem4;
 	public ParticleSystem particleSystem5;
 
+	public TextMeshProUGUI gameOverText;
+	public FurikoParticleController furikoParticleController;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -35,6 +39,11 @@ public class DetachOnCondition : MonoBehaviour
 
         initialPosition = transform.position;
         initialRotation = transform.rotation;
+
+		if (gameOverText != null)
+		{
+			gameOverText.text = "";
+		}
     }
 
     void Update()
@@ -52,6 +61,20 @@ public class DetachOnCondition : MonoBehaviour
 
         hingeJoint.breakForce = 0;
         hingeJoint = null;
+
+		if (furikoParticleController != null)
+		{
+			furikoParticleController.StopTimer();
+
+			if (furikoParticleController.timerText != null)
+			{
+				furikoParticleController.timerText.text = "";
+			}
+		}
+		if (gameOverText != null)
+		{
+			gameOverText.text = "Game Over";
+		}
 
         if (furikoLineScript != null)
             furikoLineScript.DetachLine();
